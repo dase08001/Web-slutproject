@@ -11,7 +11,7 @@ html, body { height: 100%; margin: 0; padding: 0; }
 .Header1 {
     grid-column: 1/6;
     grid-row: 1/2;
-    font-size: 48px;
+    font-size: 40px;
     text-align: left;
     color: white;
     background-color: black;
@@ -19,7 +19,36 @@ html, body { height: 100%; margin: 0; padding: 0; }
 .Header2 {
     grid-column: 1/6;
     grid-row: 1/2;
-    font-size: 48px;
+    font-size: 40px;
     margin-left: 200px;
+    color: white;
+}
+.Header3 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 40px;
+    text-align: right;
+    color: white;
+}
+.Header4 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 40px;
+    margin-left: 400px;
+    color: white;
+}
+.Header5 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 40px;
+    margin-left: 560px;
+    color: white;
+    
+}
+.Header6 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 40px;
+    margin-left: 720px;
     color: white;
 }
