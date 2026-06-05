@@ -8,7 +8,6 @@ html, body { height: 100%; margin: 0; padding: 0;}
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 10% 20% 20% 20% 20%;
 }
-
 .Header1 {
     grid-column: 1/6;
     grid-row: 1/2;
@@ -46,7 +45,6 @@ html, body { height: 100%; margin: 0; padding: 0;}
     margin-left: 250px;
     color: white;
 }
-
 .Tankist {
     grid-column: 3/4;
     grid-row: 2/3;
@@ -70,6 +68,14 @@ ul{
     grid-row: 3/4;
     font-size: 24px;
     margin-top: 75px;
+}
+
+.Background{
+    grid-column: 2/5;
+    grid-row: 2/6;
+    margin-left: 130px;
+    margin-top: 50px;
+    background-color: gray;
 }
 
 .img1_s {
@@ -96,15 +102,6 @@ ul{
     margin-top: 96px;
     margin-left: 200px;
 }
-
-.Sbackground {
-    grid-column: 2/5;
-    grid-row: 2/6;
-    margin-left: 130px;
-    margin-top: 50px;
-    background-color: gray;
-}
-
 .Sd1 {
     grid-column: 2/5;
     grid-row: 2/4;
