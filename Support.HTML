@@ -9,25 +9,45 @@
 <body>
 
     <div class="container">
-        <a href="Tankist.HTML" class="Header1">Hub</a>
-        <a href="Germania.HTML" class="Header5">Germany</a>
-        <a href="NoIphone.HTML" class="Header2">Soviet</a>
-        <a href="Colonizers.HTML" class="Header6">British</a>
-        <a href="WE.HTML" class="Header3">About us</a>
+        <header>
+            <a href="Tankist.HTML" class="Header1">Hub</a>
+            <a href="Germania.HTML" class="Header5">Germany</a>
+            <a href="NoIphone.HTML" class="Header2">Soviet</a>
+            <a href="Colonizers.HTML" class="Header6">British</a>
+            <a href="WE.HTML" class="Header3">About us</a> 
+        </header>
 
-        <form action="">
-            <fieldset>
-                <legend>Feedback</legend>
-                <style>
-                    input:invalid{
-                        border: 2px rgb(255, 0, 0);
-                    }
-                </style>
-                <input type="text" name="Fname", placeholder="First name" size="20"><br>
-                <input type="text" name="Fname", placeholder="Last name" size="20"><br>
-                <input type="email" name="gmail", placeholder="Email"><br>
-                <input type="submit" value="Submit" size="20">
-            </fieldset>
+    <form action="">
+    <fieldset>
+        <legend>Support Request</legend>
 
-        </form>
+        <input type="text" name="Fname" placeholder="First Name" required><br><br>
+        <input type="text" name="Lname" placeholder="Last Name" required><br><br>
+        <input type="email" name="Email" placeholder="Email Address" required><br><br>  
+        <input type="tel" name="Phone" placeholder="Phone Number"><br><br>
+        <input type="number" name="Age" placeholder="Age" min="1" max="100"><br><br>
+
+        <label>Submission Date:</label>
+        <input type="date" name="SubmitDate"><br><br>
+
+        <label>Time of Submission:</label>
+        <input type="time" name="SubmitTime"><br><br>
+
+        <label>Upload Screenshot:</label>
+        <input type="file" name="Screenshots"><br><br>
+
+        <p>Issue Type:</p>
+        <input type="radio" name="Issue" value="technical"> Technical
+        <input type="radio" name="Issue" value="billing"> Incorrect Information
+        <input type="radio" name="Issue" value="other"> Other
+        <br><br>
+
+        <input type="checkbox" name="Updates">Send me support updates<br><br>
+        <input type="submit" value="Submit Request">
+
+    </fieldset>
+    </form>
+
     </div>
+
+</body>
